@@ -1,7 +1,37 @@
 .main_body{
-    display: flexbox;
+    display: flex;
     padding-left: 16%;
-    padding-top: 60px;
+    padding-top: 0%;
+}
+.towko{
+    display: flex;
+    padding-left: 16%;
+    padding-top: 4%;
+}
+.img1{
+    position: relative;
+    padding-right: 50%;
+}
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+.content{
+    display: flexbox;
+    justify-content: center;
+    margin: auto;
+    top: 24%;
+    left: 16%;
+    right: 16%;
+    position: absolute;
+    background-color: #237591;
+    word-wrap: break-word;
+    align-content: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
 }
 *{
     margin: 0;
@@ -23,6 +53,9 @@ header .inner{
     height: 100%;
     display: block;
     margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
 
 header .logo{
@@ -109,4 +142,34 @@ h1 {
   .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+  }
+  .hidden{
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(-100%);
+    transition: all 2s;
+  }
+  .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+  @media(prefers-reduced-motion){
+    .hidden{
+        transition: 0;
+    }
+}
+.row {
+    word-wrap: break-word;
+    display: flex;
+    padding-left:0%;
+  }
+  .column {
+    flex: 5%;
+    padding: 0px;
+  }
+  .texts{
+    font-family: Poppins;
+    font-size: 4vh;
+
   }
