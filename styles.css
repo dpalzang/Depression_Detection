@@ -1,7 +1,8 @@
 .main_body{
     display: flex;
-    padding-left: 16%;
+    padding-left: 19%;
     padding-top: 0%;
+    padding-right: 19%;
 }
 .towko{
     display: flex;
@@ -16,7 +17,7 @@ section{
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 .content{
     display: flexbox;
@@ -116,6 +117,12 @@ h1 {
     font-family: Montserrat;
     
 }
+h2 {
+    color:#237591;
+    
+    font-family: Montserrat;
+    
+}
 .tooltip {
     position: relative;
     display: inline-block;
@@ -148,6 +155,7 @@ h1 {
     filter: blur(10px);
     transform: translateX(-100%);
     transition: all 2s;
+    color: #898989 ;
   }
   .show{
     opacity: 1;
@@ -166,10 +174,12 @@ h1 {
   }
   .column {
     flex: 5%;
-    padding: 0px;
+    padding: 56px;
   }
   .texts{
+    display: flex;
     font-family: Poppins;
-    font-size: 4vh;
-
+    font-size: 2vh;
+    word-wrap: break-word;
+    align-content:center;
   }
