@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <!-- This is just a font that we'll be using. You can remove lines 12-14 if you don't want to use Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <title>Depression Detection</title>
     <link rel="icon" type="image/x-icon" href="images/title.jpg">
+    <script src="app.js"></script>
 </head>
 <body>
     <header>
@@ -19,26 +19,33 @@
         <div class="inner">
             <div class="logo">
                 <div>
-                    <img src="assets/logo.png" alt="Google logo">
+                    <a href="/home.html">
+                        <img src="/images/homepage logo.png" alt="Homepage Logo">
+                    </a>
                 </div>
             </div>
 
             <nav>
-                <!-- Each of the below lines look complicated. There is a reason for this markup though!
-                <li> tag will be the container for the table.
-                <span> will be the part that centers the content inside it
-                <a> is the actual clickable part -->
                     <li><span><a href="/Test.html">Test</a></span></li>
                     <li><span><a href="/work.html">Work</a></span></li>
                     <li><span><a href="/about.html">About</a></span></li>
                 <li><span><a href="" class="button">Contact</a></span></li>
-                <!-- On the line above, remove the class="button" if you don't want the final
-                element to be a button -->
             </nav>
         </div>
     </header>
+    <h1 class="towko">Depression Detection</h1>
     <div class="main_body">
-        <h1>Depression Detection</h1>
+        <section>
+        <p class="texts"> In 2022, it was estimated that there were more than 300 million depressed people  worldwide, or 5% of the world's population.
+            The National Mental Health Survey 2022 in India found that 1 in 3 Indians has  depression and the cases stand at over 56 million and that 
+            nearly 15% of Indian  adults require active intervention for one or more mental health issues.
+            About 800,000 people die by suicide worldwide every year. 164,033 Indians  committed suicide in 2021.
+            People aged 15 to 49 being the most affected. It is the second most common  reason for death among people in this age group.
+            However, not much importance is given to mental health awareness or means to  help patients battle depression.
+            This depression detection system aims to diagnose and identify the type of  depression (anxiety, post-traumatic stress disorder (PTSD), 
+            or bipolar disorder)  and suggests professional help.
+            </p>
+            </section>
     </div>
     
 </body>
